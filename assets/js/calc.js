@@ -63,8 +63,6 @@ function callme(){
         $('.preloder-wrap').fadeOut(); // will first fade out the loading animation
         $('.loader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
     });
-
-
 }
 
 //отправить заявку
@@ -97,8 +95,6 @@ function getCredit(){
         $('.preloder-wrap').fadeOut(); // will first fade out the loading animation
         $('.loader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
     });
-
-
 }
 
 //выбор кредитного продукта
