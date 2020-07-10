@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #000;
 	margin-bottom: 10px;
 	margin-top: 0px;
-    font-weight: 400;
+    font-weight: 600;
 }
 input:focus,select:focus{
 	outline:none;
@@ -1258,11 +1258,16 @@ ul{
 /*---------------------------- 9. video-area end --------------------------*/
 /*-----------10. team-area start --------------*/
 .team-wrap{
-	/*padding-bottom: 60px;*/
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+    border-radius: 2px;
 }
+
+.team-wrap:hover{
+    cursor: pointer;
+}
+
 .team-img{
 	position:relative;
 	z-index:9;
@@ -1274,7 +1279,7 @@ ul{
 	top:0;
 	width:100%;
 	height:100%;
-	background:#f00;
+	background:#000;
 	content:"";
 	opacity:0;
 	z-index:9;
@@ -1348,6 +1353,15 @@ ul{
 .team-wrap:hover .team-info{
     background: transparent!important;
 }
+
+.team-wrap:hover .product_name{
+   z-index: 9999;
+}
+.team-wrap:hover .product_name p{
+    color: #fffcfc;
+    text-shadow: -1px 0px 3px black;
+}
+
 .team-content h3{
 	text-transform:uppercase;
 	margin-bottom:0px;
@@ -1426,12 +1440,18 @@ ul{
     transition-delay: 500ms;
 }
 .team-content ul li a{
-	background:#fff;
-	height:27px;
-	width:27px;
-	line-height:25px;
-	text-align:center;
+	/*background:#fff;*/
+	/*height:27px;*/
+	/*width:27px;*/
+	/*line-height:25px;*/
+	/*text-align:center;*/
 	display:block;
+}
+
+.btn_link_main{
+    font-size: 1.5rem;
+    color: #000000;
+    font-weight: 700;
 }
 /*-----------10. team-area end --------------*/
 
@@ -1534,15 +1554,15 @@ ul{
 /*-----------12. client-area start --------------*/
 .client-info{
 	padding:25px 20px;
-	background:#296dc1;
+	background:#ba2124;
 }
 .client-info h3{
-	font-size:16px;
+	font-size:18px;
 	margin-bottom:0px;
 	color:#fff;
 }
 .client-info span{
-    font-size: 11px;
+    font-size: 15px;
     display: block;
     color: #f1f1f1;
 }
@@ -3295,12 +3315,33 @@ h3.blog-title::after{
     color: #000;
     line-height: 1.8;
 }
-.btn-product{
-    position: absolute;
-    top: 0px;
-    right: 160px;
+.btn_product_main{
+    margin-top: 5px;
+    padding: 5px 25px;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: Roboto,sans-serif;
+    outline: none;
+    line-height: 3.33333rem;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+    background: linear-gradient(90deg,#842321 0,#e5322d)
+}
+.products-footer li{
+    padding-left: 10px;
 }
 /*credit product end*/
+
+/*how to request start*/
+.how_to_request img{
+    padding-bottom: 35px;
+}
+/*how to request end*/
+
 
 /*@media print {*/
     /*.printHeader {*/
