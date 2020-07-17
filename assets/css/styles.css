@@ -726,7 +726,7 @@ ul{
 	top:0;
 	width:100%;
 	height:100%;
-	background:#296dc1;
+	background:linear-gradient(90deg,#842321 0,#e5322d);
 	content:"";
 	z-index:-9;
 	transition:all .3s;
@@ -1638,6 +1638,7 @@ ul{
 	position:relative;
 	z-index:99;
 	overflow:hidden;
+    height: 45vh;
 }
 .blog-img:before,.blog-img:after{
 	position:absolute;
@@ -1690,7 +1691,7 @@ ul{
 	bottom:-2px;
 	width:10%;
 	height:2px;
-	background: #296dc1;
+	background: linear-gradient(90deg,#842321 0,#e5322d);
 	content:"";
 	transition:all .5s;
 	-webkit-transition:all .5s;
@@ -1716,7 +1717,7 @@ ul{
 	line-height:24px;
 }
 .blog-content a.btn-style{
-	border:1px solid #296dc1;
+	border:1px solid #be2c28;
 }
 /*------------------14. blog-area end --------------------*/
 
