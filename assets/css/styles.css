@@ -1664,6 +1664,9 @@ ul{
 .blog-wrap:hover .blog-img:after{
 	width:50%;
 }
+.blog-wrap:hover{
+    cursor: pointer;
+}
 .blog-meta{
 	margin-bottom:10px;
 }
