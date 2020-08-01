@@ -16,14 +16,14 @@
 
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,600,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 *{
 	margin:0;
 	padding:0;
 }
 body {
 	color:#555;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nunito', sans-serif;
 	line-height:26px;
 	background:#fff;
     overflow-y: visible !important;
@@ -148,7 +148,7 @@ ul{
 	background:url(../images/bg/10.jpg)no-repeat center center / cover;
 }
 .bg-img-8{
-	background:url(../images/bg/11.jpg)no-repeat center center / cover;
+	background:url(../images/bg/8.jpg)no-repeat center center / cover;
 }
 /*preloader-area */
 .preloder-wrap {
@@ -856,6 +856,7 @@ ul{
 }
 .about-wrap p{
 	margin-bottom:15px;
+    font-size: 1.7rem;
 }
 .about-wrap ul li{
 	line-height:30px;
@@ -2523,7 +2524,7 @@ ul{
                 about-us pages start
 =====================================================*/
 .breadcumb-area{
-    height: 400px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
