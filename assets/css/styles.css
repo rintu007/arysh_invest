@@ -98,6 +98,8 @@ ul{
 	margin: 0;
 	padding: 0;
 }
+.pd-10{padding: 10px}
+.pd-15{padding: 15px}
 .ptb-15{padding:15px 0px}
 .ptb-30{padding:30px 0px}
 .ptb-140{padding:140px 0px;}
@@ -146,25 +148,25 @@ ul{
 	z-index:-9;
 }
 .bg-img-1{
-	background:url(../images/bg/4.jpg)no-repeat center center / cover;
+	background:url(../images/bg/1.jpg)no-repeat center / cover;
 }
 .bg-img-2{
-	background:url(../images/bg/5.jpg)no-repeat center center / cover;
+	background:url(../images/bg/2.jpg)no-repeat center center / cover;
 }
 .bg-img-3{
-	background:url(../images/bg/6.jpg)no-repeat center center / cover;
+	background:url(../images/bg/3.jpg)no-repeat center center / cover;
 }
 .bg-img-4{
-	background:url(../images/bg/7.jpg)no-repeat center center / cover;
+	background:url(../images/bg/4.jpg)no-repeat center center / cover;
 }
 .bg-img-5{
-	background:url(../images/bg/8.jpg)no-repeat center center / cover;
+	background:url(../images/bg/5.jpg)no-repeat center center / cover;
 }
 .bg-img-6{
-	background:url(../images/bg/9.jpg)no-repeat center center / cover;
+	background:url(../images/bg/6.jpg)no-repeat center center / cover;
 }
 .bg-img-7{
-	background:url(../images/bg/10.jpg)no-repeat center center / cover;
+	background:url(../images/bg/7.jpg)no-repeat center center / cover;
 }
 .bg-img-8{
 	background:url(../images/bg/8.jpg)no-repeat center center / cover;
@@ -968,7 +970,7 @@ ul{
 	opacity:.5;
 }
 .service-content{
-	padding:30px 20px;
+	padding:20px 20px;
 }
 .service-content h3{
 	font-size:20px;
@@ -982,9 +984,9 @@ ul{
 	transition:all .3s;
 	-webkit-transition:all .3s;
 	-moz-transition:all .3s;
-	text-transform:capitalize;
+    font-size: 1.7rem;
 }
-.service-wrap:hover .service-content p,.service-wrap:hover .service-content h3,.service-wrap:hover .service-content a{color:#fff}
+.service-wrap:hover .service-content p,.service-wrap:hover .service-wrap-title,.service-wrap:hover .service-content a{color:#fff}
 .service-wrap .service-content a:hover{
     text-shadow: 0px 3px 5px rgba(0,0,0,.3);
 }
@@ -2143,12 +2145,12 @@ ul{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#296dc1', endColorstr='#0552b1', GradientType=1 );
 }
 .pricing-wrap h4{
-	height:90px;
-	line-height:90px;
-	font-size:35px;
-	background:#fafafa;
-	margin-bottom:0px;
-	font-weight:700;
+    height: 90px;
+    font-size: 2.5rem;
+    background: #fafafa;
+    margin-bottom: 0px;
+    font-weight: 700;
+    padding: 20px;
 }
 .pricing-wrap h4 span{
     font-size: 10px;
@@ -3322,21 +3324,22 @@ h3.blog-title::after{
 }
 .product_name p{
     padding: 15px;
-    font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.3rem;
     color: #000;
+    text-shadow: 0 0 0px black;
 }
 .product-info{
     z-index: 999;
 }
 .value{
-    font-size: 1.6rem;
-    font-weight: 600;
+    font-size: 1.9rem;
+    font-weight: 700;
     line-height: 1;
-    color: #21292f;
+    color: #000000;
+    text-shadow: 0px 0px 0px black;
 }
 .description{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #000;
     line-height: 1.8;
 }
