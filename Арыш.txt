@@ -1,0 +1,13 @@
+1) - еще разделы сделай в таком порядке:
+2) - раздел/страничка о нас
+3) - раздел/страничка вопросы и ответы
+4) - Поменял как оформить займ
+5) - раздел/страничка как получить кредит
+6) - кредитные продукты
+7) - header
+
+1) https://ulancho.github.io/arysh_invest/ - главная
+2) https://ulancho.github.io/arysh_invest/about.html -  о нас
+3) https://ulancho.github.io/arysh_invest/faq.html - вопросы и ответы
+4) https://ulancho.github.io/arysh_invest/form.html - заявка
+5) https://ulancho.github.io/arysh_invest/how_to_get.html - как получить кредит
