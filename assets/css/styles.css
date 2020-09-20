@@ -376,6 +376,8 @@ ul{
 	color:#222;
 	font-size:24px;
 }
+
+
 /*---------------------------- 2. header-area end --------------------------*/
 .mainmenu > ul{
 	display:flex;
@@ -1979,7 +1981,7 @@ ul{
     margin-left: 0px;
 }
 .header-middle-right ul li .contact-icon i{
-    font-size: 40px;
+    font-size: 3rem;
     margin-right: 15px;
     line-height: 40px;
     color: #B01E15;
@@ -1988,6 +1990,7 @@ ul{
     color: #B01E15;
     line-height: 20px;
     font-weight: 500;
+    font-size: 1.6rem;
 }
 .header-middle-right ul li .contact-info span{
     font-size: 12px;
