@@ -7,11 +7,11 @@
 	 new WOW().init();
 
 	/*------------- preloader js --------------*/
-	$(window).on('load',function() { // makes sure the whole site is loaded
-		$('.preloder-wrap').fadeOut(); // will first fade out the loading animation
-		$('.loader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
-		$('body').delay(150).css({'overflow':'visible'})
-	})
+	// $(window).on('load',function() { // makes sure the whole site is loaded
+	// 	$('.preloder-wrap').fadeOut(); // will first fade out the loading animation
+	// 	$('.loader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
+	// 	$('body').delay(150).css({'overflow':'visible'})
+	// })
 
     // search
 	$(".search-wrap ul li a").on("click", function(){
@@ -20,6 +20,7 @@
 	$(".search-area span.closs-btn ").on("click", function(){
 		$(".search-area").removeClass("active");
 	});
+
 	// // stickey menu
 	// $(window).on('scroll',function() {
 	// 	var scroll = $(window).scrollTop(),

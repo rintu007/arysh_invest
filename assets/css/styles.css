@@ -691,6 +691,7 @@ ul{
 }
 .slider-items img{
     visibility: hidden;
+    height: 90vh;
 }
 .table{
 	display:table;
